@@ -1,8 +1,8 @@
 # FILE NAME - glue_name.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Katrina Carpenter
+# DATE: 02/14/2025
+# BRIEF DESCRIPTION:  Glue name lab
 
 
 
@@ -17,11 +17,9 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
-    
-    
-    
-    
-    
+first_name = input("Enter first name: ")
+last_name = input("Enter last name: ")
+print(f"Hi, {first_name} {last_name}")
     
     
     
@@ -77,7 +75,7 @@ Hi, Lisa Simpson, esquire
    your response to Python. It might be a lesson in time management, a lesson
    using CodeGrade, or something else.
 
-
+   I learned how to properly use an f-string. 
 
 
 
