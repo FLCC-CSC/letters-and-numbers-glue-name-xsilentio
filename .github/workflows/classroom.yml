@@ -26,6 +26,7 @@ jobs:
         expected-output: 'Enter first name: Enter last name: Hi, Dave Ghidiu'
         comparison-method: contains
         timeout: 10
+        max-score: 5
     - name: Test Case 2 [bart simpson]
       id: test-case-2-bart-simpson
       uses: classroom-resources/autograding-io-grader@v1
@@ -41,6 +42,7 @@ jobs:
           '
         comparison-method: exact
         timeout: 10
+        max-score: 5
     - name: Test Case 3 [Paige LaBarr]
       id: test-case-3-paige-labarr
       uses: classroom-resources/autograding-io-grader@v1
@@ -54,6 +56,7 @@ jobs:
         expected-output: 'Enter first name: Enter last name: Hi, Paige LaBarr'
         comparison-method: exact
         timeout: 10
+        max-score: 5
     - name: Test Case 4 [Lisa Simpson, esquire]
       id: test-case-4-lisa-simpson-esquire
       uses: classroom-resources/autograding-io-grader@v1
@@ -69,6 +72,7 @@ jobs:
           '
         comparison-method: exact
         timeout: 10
+        max-score: 5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
