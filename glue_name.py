@@ -1,5 +1,5 @@
 # FILE NAME - glue_name.py
-
+# DRG - Rerun for points 2025-02-18-2348
 # NAME: Katrina Carpenter
 # DATE: 02/14/2025
 # BRIEF DESCRIPTION:  Glue name lab
